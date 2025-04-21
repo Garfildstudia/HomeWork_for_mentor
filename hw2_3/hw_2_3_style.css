@@ -15,9 +15,17 @@ body{
     height: 15vw;
     margin: 0.5vw;
 }
-*.weather img{
+.weather img{
     width: 15vw;
     height: 13vw;
     justify-items: center;
     align-items: center;
+    transition: 2s;
+}
+.weather img:hover{
+    width: 16vw;
+    height: 14vw;
+    justify-items: center;
+    align-items: center;
+    transition: 1s;
 }
