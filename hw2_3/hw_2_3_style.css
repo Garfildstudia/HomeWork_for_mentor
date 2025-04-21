@@ -1,0 +1,23 @@
+body{
+    width: 100vw;
+    background: #566e54;
+}
+.flex{
+    width: 99vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: auto}
+.weather{
+    display: flex;
+    width: 15vw;
+    height: 15vw;
+    margin: 0.5vw;
+}
+*.weather img{
+    width: 15vw;
+    height: 13vw;
+    justify-items: center;
+    align-items: center;
+}
