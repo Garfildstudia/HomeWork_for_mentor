@@ -8,23 +8,28 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
-    margin: auto}
-.weather{
-    display: flex;
-    width: 15vw;
-    height: 15vw;
-    margin: 0.5vw;
 }
-.weather img{
-    width: 15vw;
-    height: 13vw;
+.weather{
+    background-color: #d1e3c9;
+    display: flex;
+    margin: 0.5vw;
+    border-radius: 0.5vw;
+    transition: 2s;
+    width: 14vw;
+    height: 12vw;
     justify-items: center;
     align-items: center;
-    transition: 2s;
+    padding: 0.2vw;
 }
-.weather img:hover{
-    width: 16vw;
-    height: 14vw;
+.weather p{
+    padding: 1vw;
+    justify-items: right;
+    align-items: center;
+    transition: 5s;
+}
+.weather:hover{
+    width: 15vw;
+    height: 13vw;
     justify-items: center;
     align-items: center;
     transition: 1s;
