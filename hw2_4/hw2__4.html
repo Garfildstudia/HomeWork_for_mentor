@@ -4,33 +4,57 @@
     <meta charset="UTF-8">
     <title>hw2_4</title>
   <style>
-    .fonts{
+    *{
+      margin:0;
+      padding:0;
+    }
+    body{
+      width: 100vw;
+    }
+
+    .boxes{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      }
+    .box{
+      width: 180px;
+      height: 180px;
       background: #efc8ad;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+                }
+    .box p{
+      padding: 15px;
     }
 
   </style>
 </head>
 <body>
 
-<div class="fonts">
+<div class="boxes">
 
-<div class="font">
+<div class="box">
   <p>Rubik Pixels</p>
 </div>
 
-  <div class="font">
-    <p>'Sedgwick Ave Display</p>
+  <div class="box">
+    <p>Sedgwick Ave Display</p>
   </div>
 
-  <div class="font">
+  <div class="box">
     <p>Dancing Script</p>
   </div>
 
-  <div class="font">
+  <div class="box">
     <p>Fjalla One</p>
   </div>
 
-  <div class="font">
+  <div class="box">
     <p>Indie Flower</p>
   </div>
 
