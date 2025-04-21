@@ -3,34 +3,32 @@ body{
     background: #566e54;
 }
 .flex{
-    width: 99vw;
+    width: 98vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
+    justify-content: space-around;
 }
 .weather{
     background-color: #d1e3c9;
     display: flex;
-    margin: 0.5vw;
+    margin: 0.2vw;
     border-radius: 0.5vw;
     transition: 2s;
     width: 14vw;
-    height: 12vw;
     justify-items: center;
     align-items: center;
-    padding: 0.2vw;
 }
 .weather p{
-    padding: 1vw;
-    justify-items: right;
-    align-items: center;
-    transition: 5s;
-}
-.weather:hover{
-    width: 15vw;
-    height: 13vw;
     justify-items: center;
     align-items: center;
+    transition: 1s;
+    line-height: 25px;
+    padding: 0.5vw 0.5vw;
+}
+.weather:hover{
+    width: 17vw;
+    height: 17vw;
     transition: 1s;
 }
