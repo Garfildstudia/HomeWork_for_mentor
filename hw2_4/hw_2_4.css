@@ -1,0 +1,47 @@
+.Rubik_Pixels {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+.sedgwick_ave_display{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+.fjalla-one-regular{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    width: 100vw;
+}
+
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box{
+    width: 180px;
+    height: 180px;
+    background: #efc8ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
