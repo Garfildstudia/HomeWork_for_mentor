@@ -13,14 +13,14 @@ section{
     line-height: 24px;
     }
 
-.section1{
+#section1{
     background-color: #b16a55;
    }
 
-.section2{
+#section2{
     background-color: #5ee3db;
     }
 
-.section3{
+#section3{
     background-color: mediumseagreen;
     }
