@@ -3,11 +3,38 @@
     padding: 0;
 }
 .head{
-    background: #D9D9D9;
+    background: #ea3030;
     height: 21.844vh;
 }
 
+.section_main{
+    height: 56.312vh;
+    display: flex;
+     }
 .foot{
-    background: #D9D9D9;
+    background: #c50f0f;
     height: 21.844vh;
 }
+.box1{
+    background: rgba(12, 49, 236, 0.99);
+    width: 25%;
+}
+.box2{
+    background: #1833ec;
+    width: 25%;
+}
+.box3{
+    display: flex;
+    width: 50%;
+    }
+.box3_1{
+    background: #fd8f00;
+    width: 50%;
+    position: absolute;
+    }
+.box3_2{
+    background: #98b0e4;
+    width: 50%;
+    position: relative;
+            }
+
