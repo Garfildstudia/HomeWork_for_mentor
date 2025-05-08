@@ -1,22 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 .head{
-    background: #D9D9D9;
-    height: 21.844vh;
+    background: #8D8484;
+}
+.head, .foot{
+    height: 20vh;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section_main{
-    height: 56.312vh;
+    height: 60vh;
     display: flex;
 }
 .foot{
     background: #D9D9D9;
-    height: 21.844vh;
-}
+    }
 .box1{
-    background: #C0BDBD;
+    background: #BDBDBD;
     width: 26.852vw;
 }
 .box2{
@@ -36,7 +47,6 @@
     background: #B7ADAD;
     width: 100%;
     height: 50%;
-
 }
 
 
