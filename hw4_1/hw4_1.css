@@ -24,16 +24,19 @@
     width: 26.852vw;
 }
 .box3{
-    display: flex;
     width: 46.296vw;
+    height: 100%;
         }
 .box3_1{
     background: #827878;
-    width: 50%;
+    width: 100%;
+    height: 50%;
        }
 .box3_2{
     background: #B7ADAD;
-    width: 50%;
+    width: 100%;
+    height: 50%;
+
 }
 
 
