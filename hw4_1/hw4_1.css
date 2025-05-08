@@ -3,38 +3,37 @@
     padding: 0;
 }
 .head{
-    background: #ea3030;
+    background: #D9D9D9;
     height: 21.844vh;
 }
 
 .section_main{
     height: 56.312vh;
     display: flex;
-     }
+            }
 .foot{
-    background: #c50f0f;
+    background: #D9D9D9;
     height: 21.844vh;
 }
 .box1{
-    background: rgba(12, 49, 236, 0.99);
-    width: 25%;
+    background: #C0BDBD;
+    width: 26.852vw;
 }
 .box2{
-    background: #1833ec;
-    width: 25%;
+    background: #C0BDBD;
+    width: 26.852vw;
 }
 .box3{
     display: flex;
-    width: 50%;
-    }
+    width: 46.296vw;
+        }
 .box3_1{
-    background: #fd8f00;
+    background: #827878;
     width: 50%;
-    position: absolute;
-    }
+       }
 .box3_2{
-    background: #98b0e4;
+    background: #B7ADAD;
     width: 50%;
-    position: relative;
-            }
+}
+
 
