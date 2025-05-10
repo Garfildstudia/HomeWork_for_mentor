@@ -17,12 +17,17 @@
     display: flex;
 }
 
-.big_section{
+.vertiсal_section1{
     background: #A4A4A4;
-    width: 73.18%;
+    width: 25%;
 }
+.vertiсal_section2{
+    background: #00ff33;
+    width: 25%;
+}
+
 .section_main_2boxes{
-    width: 26.82%;
+    width: 50%;
 }
 .box_1{
     width: 100%;
@@ -34,8 +39,5 @@
     height: 45.93%;
     background: #615050;
 }
-.wide_section{
-    height: 9.94vh;
-    background: #D9D9D9;
-}
+
 
