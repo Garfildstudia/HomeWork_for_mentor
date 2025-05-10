@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background: #D9D9D9;
+    height: 4.48vh;
+
+}
+.foot{
+    background: #AFA9A9;
+    height: 11.91vh;
+}
+
+.section_main{
+    height: 73.67vh;
+    display: flex;
+}
+
+.big_section{
+    background: #A4A4A4;
+    width: 73.18%;
+}
+.section_main_2boxes{
+    width: 26.82%;
+}
+.box_1{
+    width: 100%;
+    height: 54.07%;
+    background: #7F7A7A;
+}
+.box_2{
+    width: 100%;
+    height: 45.93%;
+    background: #615050;
+}
+.wide_section{
+    height: 9.94vh;
+    background: #D9D9D9;
+}
+
