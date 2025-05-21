@@ -1,32 +1,35 @@
 .load{
+    display: flex;
     width: 100vw;
-    height: 500px;
+    height: 200px;
     background-color: grey;
     margin: 100px auto auto auto ;
-    animation: progress_load 3s linear 3 alternate;
-}
+    animation: progress_load 4s linear 1 alternate;
+   }
 
 body {
     background-color: #7b9adc;
 }
 @keyframes progress_load {
     0% {
-        width: 25vw;
-        height: 500px;
-    }
+        transform: translateX(-100%);
+
+            }
     50% {
-        width: 50vw;
-        height: 500px;
-                   }
+        transform: translateX(-70%);
+        border: red solid 10px;
+               }
     75% {
-        width: 75vw;
-        height: 500px;
-    }
+        transform: translateX(-50%);
+        border: yellow solid 15px;
+            }
 
     100% {
-        background-color: green;
-        width: 100vw;
-        height: 500px;
-
+        transform: translateX(-10%);
+        border: darkgreen solid 20px;
     }
 }
+.loading{
+        font-size: 100px;
+   }
+
