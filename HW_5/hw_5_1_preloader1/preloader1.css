@@ -22,23 +22,21 @@ body {
     }
     50% {
         background-color: lightblue;
-        transform: scale(1);
         border-radius: 30%;
         border: blue solid 30px;
         align-items: flex-start;
-        transform: rotate(-36deg) skew(55deg);
+        transform: rotate(36deg) skew(55deg);
     }
     70% {
-        transform: rotate(-36deg);
+        transform: rotate(32deg);
     }
     90% {
         background-color: blue;
-        transform: rotate(36deg);
+        transform: rotate(39deg);
     }
     100% {
         background-color: pink;
-        transform: scale(2);
-    }
+            }
 }
 @keyframes bluebox {
     0% {
@@ -47,21 +45,19 @@ body {
     }
     50% {
         background-color: lightblue;
-        transform: scale(1.5);
         border-radius: 30%;
         border: pink solid 30px;
         align-items: flex-start;
-        transform: rotate(-36deg) skew(55deg);
+        transform: rotate(36deg) skew(55deg);
     }
     70% {
-        transform: rotate(-36deg);
+        transform: rotate(32deg);
     }
     90% {
         background-color: pink;
-        transform: rotate(36deg);
+        transform: rotate(39deg);
     }
     100% {
         background-color: blue;
-        transform: scale(1);
-    }
+            }
 }
