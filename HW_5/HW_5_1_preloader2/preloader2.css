@@ -1,0 +1,32 @@
+.load{
+    width: 100vw;
+    height: 500px;
+    background-color: grey;
+    margin: 100px auto auto auto ;
+    animation: progress_load 3s linear 3 alternate;
+}
+
+body {
+    background-color: #7b9adc;
+}
+@keyframes progress_load {
+    0% {
+        width: 25vw;
+        height: 500px;
+    }
+    50% {
+        width: 50vw;
+        height: 500px;
+                   }
+    75% {
+        width: 75vw;
+        height: 500px;
+    }
+
+    100% {
+        background-color: green;
+        width: 100vw;
+        height: 500px;
+
+    }
+}
