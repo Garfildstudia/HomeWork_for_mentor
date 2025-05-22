@@ -2,34 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 .domino{
     width: 30px;
     height: 300px;
-    background-color: black;
     margin: 100px auto auto auto ;
     animation: domino 3s linear 3 alternate;
-}
-body {
-    background-color: #727573;
+    background-color: black;
 }
 @keyframes domino {
-    0% {
-        background-color: black;
-        transform-style: preserve-3d;
-    }
-    50% {
-        background-color: white;
-        transform: skew(5deg);
-    }
-    70% {
-        transform: rotate(32deg);
-    }
-    90% {
-        background-color: blue;
-        transform: rotate(39deg);
-    }
-    100% {
-        background-color: black;
-    }
+    0% {}
+    50% {rotate: 80deg;}
+    100% {}
 }
