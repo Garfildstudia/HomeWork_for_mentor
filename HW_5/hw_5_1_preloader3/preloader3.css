@@ -1,17 +1,156 @@
+.load{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
+}
+.loading{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    animation: loading 2s linear 1 alternate;
+}
+
+@keyframes loading {
+    0% {
+        transform: translateX(-120%);
+        color: red;
+        font-size: 100px;
     }
-.domino{
+    50% {
+        color: yellow;
+        font-size: 150px;
+    }
+    100% {
+        transform: translateX(90%);
+        color: green;
+        font-size: 200px;
+    }
+}
+
+    .domino1{
     width: 30px;
     height: 300px;
     margin: 100px auto auto auto ;
-    animation: domino 3s linear 3 alternate;
+    animation: domino1 2s step-end 1 normal;
     background-color: black;
 }
-@keyframes domino {
+@keyframes domino1 {
+    0% {}
+    10% {rotate: 80deg;}
+    100% {}
+}
+.domino2{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino2 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino2 {
+    0% {}
+    20% {rotate: 80deg;}
+    100% {}
+}
+.domino3{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino3 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino3 {
+    0% {}
+    30% {rotate: 80deg;}
+    100% {}
+}
+.domino4{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino4 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino4 {
+    0% {}
+    40% {rotate: 80deg;}
+    100% {}
+}
+.domino5{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino5 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino5 {
     0% {}
     50% {rotate: 80deg;}
+    100% {}
+}
+.domino6{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino6 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino6 {
+    0% {}
+    60% {rotate: 80deg;}
+    100% {}
+}
+.domino7{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino7 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino7 {
+    0% {}
+    70% {rotate: 80deg;}
+    100% {}
+}
+.domino8{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino8 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino8 {
+    0% {}
+    80% {rotate: 80deg;}
+    100% {}
+}
+.domino9{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino9 2s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino9 {
+    0% {}
+    90% {rotate: 80deg;}
+    100% {}
+}
+.domino10{
+    width: 30px;
+    height: 300px;
+    margin: 100px auto auto auto ;
+    animation: domino10 3s step-end  1 normal;
+    background-color: black;
+}
+@keyframes domino10 {
+    0% {}
+    99% {rotate: 90deg;}
     100% {}
 }
