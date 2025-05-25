@@ -153,5 +153,31 @@ ul a {
     font-weight: 400;
     line-height: 101.896%; /* 71.328px */
     text-transform: uppercase;
-    margin: 64px 272px 129px 273px;
+    /*margin: 64px 272px 129px 273px;*/
+    margin: 64px auto auto auto;
     }
+.button_get_started{
+    width: 196px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #D1EF53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px auto 36px auto;
+   }
+.text_button_get_started{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 21px 31px 22px 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
