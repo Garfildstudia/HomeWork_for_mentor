@@ -131,3 +131,11 @@ ul a {
     text-decoration: none;
     padding: 17px 31px 18px 31px;
     }
+.img_free_and_burgers_up{
+    width: 1340px;
+    margin: 64px 50px 64px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
