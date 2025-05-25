@@ -58,3 +58,13 @@ ul a {
     width: 1255px;
     height: 285px;
 }
+.img_burgers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 396px;
+    padding: 0;
+    margin: auto auto;
+}
+
