@@ -70,10 +70,10 @@ ul a {
     }
 /*___________my css burgers______________*/
 .above_burgers{
+    width: 1340px;
     border-radius: 30px;
     border: 4px solid #1E1E1E;
     background: #D1EF53;
-    width: 1340px;
     height: 369px;
     margin: 0 auto;
     display: flex;
@@ -133,9 +133,11 @@ ul a {
     }
 .img_free_and_burgers_up{
     width: 1340px;
-    margin: 64px 50px 64px 50px;
+    background: #D1EF53;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
+
+
