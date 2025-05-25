@@ -9,6 +9,7 @@ body{
 }
 .w-1340{
     width: 1340px;
+    height: 3004px;
     margin: 0 auto;
 }
 nav{
@@ -65,8 +66,8 @@ ul a {
     width: 700px;
     height: 396px;
     padding: 0;
-    margin: auto auto;
-}
+    margin: 0 auto 32px auto;
+    }
 /*___________my css burgers______________*/
 .above_burgers{
     border-radius: 30px;
@@ -78,9 +79,10 @@ ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-        }
+    }
 .section_main_left_text{
     width: 533px;
+    height: 186px;
     color: #1E1E1E;
     font-family: "Bowlby One", sans-serif;
     font-size: 70px;
@@ -90,6 +92,7 @@ ul a {
     letter-spacing: -1.4px;
     text-transform: uppercase;
     display: flex;
+    margin: 98px 28px 85px 109px;
     }
 .right_text{
     width: 521px;
@@ -101,8 +104,7 @@ ul a {
     font-weight: 600;
     line-height: 139.896%; /* 33.575px */
     letter-spacing: -0.48px;
-    background-color: #5ee3db;
-    }
+     }
 .button_About{
     width: 176px;
     height: 60px;
@@ -114,16 +116,18 @@ ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
+    margin-top: 34px;
+    padding-top: 0;
+    }
 .text_button{
     color: #1E1E1E;
-    text-align: center;
     font-family: "Bowlby One", sans-serif;
     font-size: 18px;
+    text-align: center;
     font-style: normal;
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
     text-decoration: none;
+    padding: 17px 31px 18px 31px;
     }
