@@ -19,6 +19,8 @@ background-color: rgb(255,255,255);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    font-size: 60px;
 }
 .login_form{
     margin: 25px auto 50px auto;
@@ -31,4 +33,30 @@ background-color: rgb(255,255,255);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#email{
+    width: 70%;
+    height: 45px;
+}
+#email{
+    width: 70%;
+    height: 45px;
+}
+#password{
+    width: 70%;
+    height: 45px;
+}
+.save_info_for_my{
+    font-size: 30px;
+}
+.button_submit{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(233,243,243);
+    margin-left: 310px;
+}
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 10px;
 }
