@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(2,139,139);
+}
+.Enter_form{
+background-color: rgb(255,255,255);
+    width: 1000px;
+    height: 700px;
+    margin: 100px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.title{
+    background-color: rgb(233,243,243);
+    height:  200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_form{
+    margin: 25px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password_form{
+    margin: 25px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
