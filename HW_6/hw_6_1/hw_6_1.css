@@ -1,11 +1,13 @@
 body{
     background-color: rgb(2,139,139);
+    margin: 0;
 }
 .Enter_form{
 background-color: rgb(255,255,255);
     width: 1000px;
     height: 700px;
     margin: 100px auto;
+    border-radius: 15px;
 }
 .submit{
     display: flex;
@@ -21,6 +23,8 @@ background-color: rgb(255,255,255);
     align-items: center;
     font-weight: bold;
     font-size: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .login_form{
     margin: 25px auto 50px auto;
@@ -38,7 +42,7 @@ background-color: rgb(255,255,255);
     width: 70%;
     height: 45px;
 }
-#email{
+#text{
     width: 70%;
     height: 45px;
 }
@@ -55,6 +59,8 @@ background-color: rgb(255,255,255);
     border-radius: 10px;
     background-color: rgb(233,243,243);
     margin-left: 310px;
+    font-weight: bold;
+    font-size: 20px;
 }
 input[type="checkbox"] {
     transform: scale(1.5);
