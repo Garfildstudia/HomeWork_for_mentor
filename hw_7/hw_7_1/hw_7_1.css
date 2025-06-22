@@ -54,7 +54,7 @@ h1{
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    position: fixed;
+    position: absolute;
     margin: 200px 2px 13px 95px;
     }
 p{
@@ -64,6 +64,6 @@ p{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    position: sticky;
+    position: relative;
     margin: 250px 54px 193px 54px;
 }
