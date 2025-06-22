@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 1512px;
+    height: 982px;
+}
+.games{
+    width: 99vw;
+    height: 99vh;
+    background: #FFF;
+    display: flex;
+    gap: 132px;
+    border: #b3aa56 1px solid;
+    }
+
+.joystick{
+    width: 319px;
+    height: 492px;
+    flex-shrink: 0;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    margin-left: 145px;
+    margin-top: 269px;
+}
+
+.chess{
+    width: 319px;
+    height: 492px;
+    flex-shrink: 0;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    margin-top: 269px;
+}
+
+.battle{
+    width: 319px;
+    height: 492px;
+    flex-shrink: 0;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    margin-top: 269px;
+}
