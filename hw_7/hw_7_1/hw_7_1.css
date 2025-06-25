@@ -23,6 +23,7 @@
     margin-top: 270px;
     margin-bottom: 221px;
     margin-left: 145px;
+    position: relative;
       }
 .chess_card{
     width: 321px;
@@ -31,6 +32,7 @@
     background: rgba(217, 217, 217, 0.30);
     margin-top: 270px;
     margin-bottom: 221px;
+    position: relative;
     }
 
 .battle_card{
@@ -41,41 +43,47 @@
     margin-top: 270px;
     margin-bottom: 221px;
     margin-right: 142px;
-
+    position: relative;
     }
-h3{
+.games_cards h3{
     color: #000;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+    left: 100px;
     }
-p{
+.games_cards p{
     color: #000;
     text-align: center;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-.circle1{
-    position: relative;
-    top: -50px;
-    right: -101px;
+    width: 211px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
     }
 
-.circle2{
-    position: relative;
+.circle1{
+    position: absolute;
     top: -50px;
-    right: -101px;
+    left: 100px;
+        }
+
+.circle2{
+    position: absolute;
+    top: -50px;
+    left: 100px;
 }
 .img_game{
-    position: relative;
+    position: absolute;
     width: 60px;
     height: 60px;
-    top: -70px;
-    right: -20px;
-}
+    top: -30px;
+    left: 120px;
+    }
