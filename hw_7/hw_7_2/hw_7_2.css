@@ -3,5 +3,46 @@
     padding: 0;
 }
 body{
-    font-size:  140px;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100vw;
+    height: 113px;
+    background-color: #24204A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    width: 100vw;
+    height: 94px;
+    background-color: #071341;
+}
+
+.upper_part{
+    width: 100vw;
+    height: 2214px;
+    background: #24204A;
+}
+.middle_part{
+    width: 100vw;
+    height: 764px;
+    background: #071341;
+}
+.maps{
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    color: #E5E5E5;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+    color: #E5E5E5;
+    text-decoration: none;
 }
