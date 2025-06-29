@@ -153,3 +153,34 @@ footer{
     top: 180px;
     position:  absolute;
 }
+.card1{
+    width: 209px;
+    height: 206px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid var(--1, #8E88C1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph_in_the_card{
+    width: 171px;
+    height: 60px;
+    color: var(--1, #8E88C1);
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+    margin: 118px 16px 28px 15px;
+    position: relative;
+    }
+.sun{
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 775px;
+}
