@@ -28,7 +28,7 @@ header{
     height: 764px;
     width: 100vw;
     background: #071341;
-}
+  }
 .maps{
     height: 664px;
     width: 100vw;
@@ -153,6 +153,11 @@ footer{
     top: 180px;
     position:  absolute;
 }
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
 .card1{
     width: 209px;
     height: 206px;
@@ -183,4 +188,74 @@ footer{
     flex-shrink: 0;
     position: absolute;
     top: 775px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon1{
+    width: 32.082px;
+    height: 32px;
+    flex-shrink: 0;
+    width: 56.144px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF6853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    width: 32.082px;
+    height: 32px;
+    flex-shrink: 0;
+    width: 56.144px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF537C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon3{
+    width: 32.082px;
+    height: 32px;
+    flex-shrink: 0;
+    width: 56.144px;
+    height: 56px;
+    flex-shrink: 0;
+    background: #80D2C4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon4{
+    width: 32.082px;
+    height: 32px;
+    flex-shrink: 0;
+    width: 56.144px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #3F50E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon5{
+    width: 32.082px;
+    height: 32px;
+    flex-shrink: 0;
+    width: 56.144px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #95CB7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
