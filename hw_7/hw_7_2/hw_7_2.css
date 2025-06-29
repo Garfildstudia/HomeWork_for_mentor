@@ -15,12 +15,13 @@ header{
     align-items: center;
     justify-content: space-between;
     border-bottom: 4px solid rgba(0, 0, 0, 0.2);
-      }
+}
 
 .upper_part{
     height: 579px;
     width: 100vw;
     background: #24204A;
+    display: flex;
 
 }
 .middle_part{
@@ -54,6 +55,7 @@ footer{
     display: flex;
     justify-content: center;
     margin-right: 115px;
+
 }
 
 .link_menu ul {
@@ -61,6 +63,7 @@ footer{
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 65px;
 }
 
 .link_menu li {
@@ -87,6 +90,10 @@ footer{
     font-weight: 500;
     line-height: 130%;
     letter-spacing: 0.8px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 .sub_title{
     width: 261px;
@@ -128,6 +135,7 @@ footer{
     box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
     margin-top: 32px;
 }
+
 .img_led_lamp_photo{
     width: 375px;
     height: 411px;
@@ -137,8 +145,11 @@ footer{
     box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
     }
 .left_section{
-    width: 1400px;
-    height: 2214px;
     background: #24204A;
     margin-left: 115px;
       }
+.lamp{
+    right: 132px;
+    top: 180px;
+    position:  absolute;
+}
