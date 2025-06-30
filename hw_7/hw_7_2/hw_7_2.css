@@ -1,12 +1,15 @@
+/*общие настройки*/
 *{
     margin: 0;
     padding: 0;
 }
-
+/*вся страница*/
 .main{
     width: 100vw;
     height: 2214px;
     }
+
+/*хедер*/
 header{
     height: 113px;
     width: 100vw;
@@ -15,30 +18,6 @@ header{
     align-items: center;
     justify-content: space-between;
     border-bottom: 4px solid rgba(0, 0, 0, 0.2);
-}
-
-.upper_part{
-    height: 579px;
-    width: 100vw;
-    background: #24204A;
-    display: flex;
-
-}
-.middle_part{
-    height: 764px;
-    width: 100vw;
-    background: #071341;
-  }
-.maps{
-    height: 664px;
-    width: 100vw;
-    object-fit: cover;
-}
-
-footer{
-    width: 100vw;
-    height: 94px;
-    background-color: #071341;
 }
 
 .logo{
@@ -50,7 +29,7 @@ footer{
     line-height: normal;
     opacity: 0.6;
     margin-left: 115px;
-    }
+}
 .link_menu{
     display: flex;
     justify-content: center;
@@ -78,6 +57,14 @@ footer{
     color: #FFFFFF;
     opacity: 0.6;
 }
+
+/*первая часть*/
+.upper_part{
+    height: 579px;
+    width: 100vw;
+    background: #24204A;
+    display: flex;
+}
 .title{
     width: 145px;
     height: 41px;
@@ -94,17 +81,17 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    }
+}
+
 .sub_title{
     width: 261px;
     color: #FFF;
+    text-align: center;
     font-family: Inter, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.8px;
-    margin-top: 32px;
+    line-height: 42px; /* 116.667% */
 }
 .sub_text{
     width: 570px;
@@ -118,7 +105,10 @@ footer{
     line-height: 130%;
     letter-spacing: 0.8px;
     margin-top: 32px;
+    justify-content: center;
 }
+
+
 .button_about{
     color: #FFF;
     text-align: center;
@@ -143,16 +133,23 @@ footer{
     border-radius: 8px;
     background: #827EAC;
     box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
-    }
+}
 .left_section{
     background: #24204A;
     margin-left: 115px;
-      }
+}
 .lamp{
     right: 132px;
     top: 180px;
     position:  absolute;
 }
+
+/*средняя часть*/
+.middle_part{
+    height: 764px;
+    width: 100vw;
+    background: #071341;
+    }
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -180,27 +177,20 @@ footer{
     line-height: 20px; /* 125% */
     letter-spacing: 0.8px;
     margin: 118px 16px 28px 15px;
-    position: relative;
     }
 .sun{
     width: 52px;
     height: 52px;
     flex-shrink: 0;
-    position: absolute;
-    top: 775px;
-}
+  }
 .icons{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .icon1{
-    width: 32.082px;
-    height: 32px;
-    flex-shrink: 0;
     width: 56.144px;
     height: 56px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: #FF6853;
     display: flex;
@@ -208,12 +198,8 @@ footer{
     align-items: center;
 }
 .icon2{
-    width: 32.082px;
-    height: 32px;
-    flex-shrink: 0;
-    width: 56.144px;
+    width: 56px;
     height: 56px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: #FF537C;
     display: flex;
@@ -221,12 +207,8 @@ footer{
     align-items: center;
 }
 .icon3{
-    width: 32.082px;
-    height: 32px;
-    flex-shrink: 0;
-    width: 56.144px;
+    width: 56px;
     height: 56px;
-    flex-shrink: 0;
     background: #80D2C4;
     border-radius: 8px;
     display: flex;
@@ -234,12 +216,8 @@ footer{
     align-items: center;
 }
 .icon4{
-    width: 32.082px;
-    height: 32px;
-    flex-shrink: 0;
-    width: 56.144px;
+    width: 56px;
     height: 56px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: #3F50E7;
     display: flex;
@@ -247,15 +225,41 @@ footer{
     align-items: center;
 }
 .icon5{
-    width: 32.082px;
-    height: 32px;
-    flex-shrink: 0;
-    width: 56.144px;
+    width: 56px;
     height: 56px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: #95CB7C;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*секция с картой*/
+.maps{
+    height: 664px;
+    width: 100vw;
+    object-fit: cover;
+}
+/*футер*/
+footer {
+    width: 100vw;
+    height: 94px;
+    background-color: #071341;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+.trademark{
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+    width: 96px;
+    height: 24.039px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*конец кода*/
