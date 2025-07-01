@@ -150,11 +150,102 @@ header{
     width: 100vw;
     background: #071341;
     }
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.icon1{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF6853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.icon2{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF537C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.icon3{
+    width: 56px;
+    height: 56px;
+    background: #80D2C4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.icon4{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.icon5{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background: #95CB7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text{
+   justify-items: center;
+}
+.sub_title_midl{
+    width: 1074px;
+    height: 126px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    margin-top: 50px;
+}
+.sub_text{
+    width: 545px;
+    height: 24px;
+    color: var(--1, #8E88C1);
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
 .cards{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    }
+    margin-bottom: 152px;
+    margin-left: 114px;
+    margin-right: 114px;
+           }
 .card1{
     width: 209px;
     height: 206px;
@@ -164,6 +255,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 114px;
 }
 .paragraph_in_the_card{
     width: 171px;
@@ -181,57 +273,8 @@ header{
 .sun{
     width: 52px;
     height: 52px;
-    flex-shrink: 0;
-  }
-.icons{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.icon1{
-    width: 56.144px;
-    height: 56px;
-    border-radius: 8px;
-    background: #FF6853;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icon2{
-    width: 56px;
-    height: 56px;
-    border-radius: 8px;
-    background: #FF537C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icon3{
-    width: 56px;
-    height: 56px;
-    background: #80D2C4;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icon4{
-    width: 56px;
-    height: 56px;
-    border-radius: 8px;
-    background: #3F50E7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icon5{
-    width: 56px;
-    height: 56px;
-    border-radius: 8px;
-    background: #95CB7C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 1220px;
 }
 /*секция с картой*/
 .maps{
