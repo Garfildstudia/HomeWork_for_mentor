@@ -6,18 +6,18 @@
 /*вся страница*/
 .main{
     width: 100vw;
-    height: 2214px;
     }
 
 /*хедер*/
 header{
     height: 113px;
-    width: 100vw;
+    width: 100%;
     background: #24204A;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+    position: fixed;
 }
 
 .logo{
@@ -34,7 +34,6 @@ header{
     display: flex;
     justify-content: center;
     margin-right: 115px;
-
 }
 
 .link_menu ul {
@@ -42,7 +41,7 @@ header{
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 65px;
+    gap: 30px;
 }
 
 .link_menu li {
@@ -61,10 +60,10 @@ header{
 /*первая часть*/
 .upper_part{
     height: 579px;
-    width: 100vw;
+    width: 100%;
     background: #24204A;
     display: flex;
-}
+  }
 .title{
     width: 145px;
     height: 41px;
@@ -77,26 +76,25 @@ header{
     font-weight: 500;
     line-height: 130%;
     letter-spacing: 0.8px;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    margin-top: 150px;
+    text-align: center;
+    align-content: center;
+    }
 
 .sub_title{
     width: 261px;
     color: #FFF;
-    text-align: center;
     font-family: Inter, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 42px; /* 116.667% */
+    margin-top:  50px;
+
 }
-.sub_text{
+.subtext{
     width: 570px;
     height: 85px;
-    flex-shrink: 0;
     color: var(--1, #8E88C1);
     font-family: Inter, sans-serif;
     font-size: 16px;
@@ -105,9 +103,7 @@ header{
     line-height: 130%;
     letter-spacing: 0.8px;
     margin-top: 32px;
-    justify-content: center;
-}
-
+    }
 
 .button_about{
     color: #FFF;
@@ -125,25 +121,21 @@ header{
     box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
     margin-top: 32px;
 }
-
 .img_led_lamp_photo{
     width: 375px;
     height: 411px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: #827EAC;
     box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0.7;
+    right: 150px;
+    top: 140px;
+    position:  absolute;
 }
 .left_section{
     background: #24204A;
     margin-left: 115px;
 }
-.lamp{
-    right: 132px;
-    top: 180px;
-    position:  absolute;
-}
-
 /*средняя часть*/
 .middle_part{
     height: 764px;
