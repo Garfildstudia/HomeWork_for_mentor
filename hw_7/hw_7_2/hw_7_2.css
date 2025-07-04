@@ -231,7 +231,7 @@ header{
     height: 19px;
     }
 .volume_description{
-    color: var(1, #8E88C1);
+    color: var(--1, #8E88C1);
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-style: normal;
