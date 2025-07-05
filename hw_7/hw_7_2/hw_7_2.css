@@ -153,14 +153,14 @@ header{
     height: 764px;
     width: 100vw;
     background: #071341;
+
     }
 
 .icons{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    z-index: 1;
-
+    box-sizing: border-box;
 }
 .icon1{
     width: 56px;
@@ -172,6 +172,7 @@ header{
     align-items: center;
     margin-top: 50px;
     }
+
 .icon2{
     width: 56px;
     height: 56px;
@@ -201,6 +202,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    background-color: #00ff33;
 }
 .icon5{
     width: 56px;
@@ -212,13 +214,19 @@ header{
     align-items: center;
     margin-top: 50px;
 }
+
+.icon_and_description{
+  display: flex;
+    width: 157px;
+    height: 56px;
+    gap: 15px;
+
+}
 .description{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 139px;
-    height: 43px;
-    left: 100px;
+    width: 102px;
+    height: 56px;
+    margin-top: 60px;
+
     }
 .volume{
     color: #FFF;
@@ -238,12 +246,11 @@ header{
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.8px;
-    width: 101px;
-    height: 24px;
     }
 
 .text{
    justify-items: center;
+    margin-top: 100px;
 }
 .sub_title_midl{
     width: 1074px;
@@ -308,7 +315,7 @@ header{
     width: 52px;
     height: 52px;
     position: absolute;
-    top: 1220px;
+    top: 1000px;
 }
 /*секция с картой*/
 .maps{
@@ -328,13 +335,10 @@ footer {
    }
 .trademark{
     font-family: Inter, sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 200%; /* 24px */
-    width: 96px;
-    height: 24.039px;
-    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
