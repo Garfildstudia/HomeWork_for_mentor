@@ -1,0 +1,10 @@
+@media screen and (max-width: 480px) {
+    .main-content{
+        width: 100%;
+        padding: 32px 16px;
+        gap: 40px;
+    }
+    .foto{
+        width: 100%;
+    }
+}
