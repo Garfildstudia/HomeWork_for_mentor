@@ -4,14 +4,14 @@
     font-family: "Inter", sans-serif;
     margin: 0 auto;
     gap: 32px;
-    padding: 64px 48px;
+    padding: 20px 0;
     display: flex;
-
-}
+    justify-content: center;
+    align-items: center;
+   }
 
 .item{
     width: 271px;
-    text-align: center;
     padding-right: 96px;
     }
 
@@ -26,7 +26,6 @@ h3{
     font-weight: 700;
     line-height: 120%; /* 24px */
     padding-top: 20px;
-    text-align: start;
     }
 p{
     width: 271px;

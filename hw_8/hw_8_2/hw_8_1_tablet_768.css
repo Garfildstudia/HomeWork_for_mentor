@@ -1,11 +1,14 @@
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 
-    .main-content{
+    .items{
         width: 720px;
         align-items: start;
+        gap: 24px;
+        flex-wrap:  wrap;
     }
-    .foto{
-        width: 218px;
+    .item{
+        width: 348px;
+        margin-top: 40px;
     }
 
 }
