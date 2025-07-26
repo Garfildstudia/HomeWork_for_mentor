@@ -1,0 +1,24 @@
+.grid_3row{
+    display: grid;
+    grid-template-rows:  22vh 56vh 22vh;
+}
+.grid_3columns{
+    display: grid;
+    grid-template-columns:  27vw 46vw 27vw;
+}
+header{
+    background: #D9D9D9;
+
+}
+
+footer{
+    background: #D9D9D9;
+
+}
+main aside{
+    background: #C0BDBD;
+}
+
+main div{
+    background: #A4A4A4;
+}
