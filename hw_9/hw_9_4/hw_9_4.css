@@ -1,0 +1,41 @@
+.grid_3row{
+    display: grid;
+    grid-template-rows:  22vh 56vh 22vh;
+}
+.grid_3columns{
+    display: grid;
+    grid-template-columns:  27vw 46vw 27vw;
+}
+header{
+    background: #8D8484;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background: #BDBDBD;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main aside{
+    background: #C0BDBD;
+}
+
+main div{
+    background: #A4A4A4;
+}
