@@ -1,10 +1,23 @@
 .grid_3row{
     display: grid;
-    grid-template-rows:  22vh 56vh 22vh;
+    grid-template-rows:  20vh 60vh 20vh;
 }
-.grid_3columns{
+
+.grid_3content_2spam{
     display: grid;
-    grid-template-columns:  27vw 46vw 27vw;
+    grid-template-columns: 70vw 30vw;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.rows3_content{
+    display: grid;
+}
+.rows2_spam{
+    display: grid;
 }
 header{
     background: #8D8484;
@@ -30,12 +43,37 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-main aside{
-    background: #C0BDBD;
 }
 
-main div{
-    background: #A4A4A4;
+.content1{
+    background: #776969;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content2{
+    background: #643030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content3{
+    background: #441818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spam1{
+    background: #937575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.spam2{
+    background: #644C4C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
