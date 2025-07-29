@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1.72fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
     grid-template-areas:
     'header header'
     'content spam'
@@ -11,13 +11,31 @@
 }
 
 header{
-    background: rgba(3, 18, 94, 0.99);
+    background: #8D8484;
     grid-area:  header;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
-    background: #850606;
+    background: #BDBDBD;
     grid-area:  footer;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content{
     grid-area:  content;
@@ -28,18 +46,33 @@ footer{
     'content1'
     'content2'
     'content3';
-}
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
 .content1{
-    background: #850606;
+    background: #776969;
     grid-area:  content1;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 .content2{
-    background: #4c8506;
+    background: #643030;
     grid-area:  content2;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 .content3{
-    background: #4e4eda;
+    background: #441818;
     grid-area:  content3;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .spam{
@@ -50,12 +83,24 @@ footer{
     grid-template-areas:
     'spam_top'
     'spam_bottom';
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .spam_top{
-    background: #00ff33;
+    background: #937575;
     grid-area:  spam_top;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 .spam_bottom{
-    background: #edb187;
+    background: #644C4C;
     grid-area:  spam_bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
