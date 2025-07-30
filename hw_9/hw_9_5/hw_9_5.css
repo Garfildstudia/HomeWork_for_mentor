@@ -1,8 +1,8 @@
 .grid{
     display: grid;
     height: 100vh;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 9fr 9fr 3fr 3fr;
     grid-template-areas:
     'header header'
     'center top-aside'
@@ -12,30 +12,30 @@
 }
 
 header{
-    background: rgba(139, 0, 0, 0.74);
+    background: #D9D9D9;
     grid-area:  header;
 }
 
 .top-aside{
-    background: #c37138;
+    background: #7F7A7A;
     grid-area:  top-aside;
 }
 
 .bottom-aside{
-    background: #98b0e4;
+    background: #615050;
     grid-area:  bottom-aside;
 }
 
 footer{
-    background: #ec1515;
+    background: #AFA9A9;
     grid-area:  footer;
 }
 .center{
-    background: #4e4eda;
+    background: #A4A4A4;
     grid-area:  center;
 }
 
 .section_bottom{
-    background: #00ff33;
+    background: #D9D9D9;
     grid-area:  section_bottom;
 }
